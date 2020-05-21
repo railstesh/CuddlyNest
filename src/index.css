@@ -1,0 +1,219 @@
+body {
+  margin: 0;
+  font-family: "-apple-system", "BlinkMacSystemFont", "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: "source-code-pro", "Menlo", "Monaco", "Consolas", "Courier New",
+    monospace;
+}
+
+.hpv2_logo {
+  float: left;
+  padding-right: 24px;
+  padding-top: 10px;
+}
+.hpv2_logo a img {
+  height: 26px;
+}
+
+.Component-root-18.Component-selected-19 {
+  color: #e56399 !important;
+  font-weight: 500;
+}
+
+.Component-root-18:hover {
+  color: #e56399 !important;
+  opacity: 1;
+}
+
+.WithStyles\(ForwardRef\(Tabs\)\)-indicator-6 {
+  background-color: #e56399 !important;
+}
+
+.hpv2_menu {
+  float: right;
+  margin: 0;
+}
+.hpv2_menu_logout {
+  float: left;
+  width: 100%;
+}
+
+.paddingBottom {
+  padding-bottom: 15px;
+}
+
+.column {
+  float: left;
+  width: 35%;
+  margin-left: 15px;
+}
+
+.marginLeft {
+  margin-left: -162px;
+  padding-top: 14px;
+}
+
+.paddingTop {
+  padding-top: 15px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.MuiInputBase-input {
+  height: 0.1876em !important;
+}
+
+.divWidth {
+  width: 75%;
+  margin-left: 10px;
+}
+
+.MuiOutlinedInput-inputMarginDense {
+  width: 100px !important;
+}
+
+.imagesColumn {
+  float: left;
+  width: 48.33%;
+  padding: 5px;
+}
+
+.imageWidth {
+  width: 100%;
+  display: flex;
+}
+
+.imageComponent {
+  width: 100%;
+  display: flex;
+}
+
+.googleImg {
+  width: 90%;
+  height: 90%;
+}
+
+.tabWidth {
+  width: 70% !important;
+}
+
+.loginMenu {
+  width: 30% !important;
+}
+
+.MuiFormControl-root {
+  margin-right: 2px !important;
+}
+
+.form-control {
+  width: 115px !important;
+}
+
+.datePickerDiv > div {
+  display: flex;
+}
+
+.MuiTypography-h5 {
+  font-size: 1rem !important;
+}
+
+.MuiTypography-gutterBottom {
+  display: flex;
+}
+.paddingLeft {
+  padding-left: 70px;
+}
+.ratingPadding {
+  padding-left: 10px;
+}
+.ratingColor {
+  font-weight: 600;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-variant: small-caps;
+  color: #b3b1b4;
+}
+
+.checked {
+  color: #b3b1b4;
+}
+
+/* custom css */
+
+.MuiFormControlLabel-root {
+  margin-left: 0 !important;
+}
+.imageComponent {
+  margin-top: 20px;
+}
+.date-sec {
+  position: relative;
+}
+.date-sec .fa {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: 12px;
+  text-align: center;
+}
+.makeStyles-root-37 {
+  height: 36px;
+}
+.room-count {
+  display: flex;
+  justify-content: center;
+}
+.room-count .MuiOutlinedInput-adornedEnd,
+.room-count .MuiOutlinedInput-root {
+  height: 40px;
+}
+
+.date-sec label {
+  width: 100%;
+  border: 1px solid #c4c4c4;
+  border-radius: 3px;
+  height: 38px;
+}
+.date-sec label > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+.date-sec label input {
+  border: none !important;
+  text-align: center;
+}
+
+.card-title {
+  width: 70%;
+  height: 40px;
+  overflow: hidden;
+}
+
+.MuiGrid-item {
+  padding: 0 15px;
+}
+
+@media (max-width: 1024px) {
+  .MuiFormControlLabel-root,
+  .MuiFormControlLabel-root form {
+    width: 100% !important;
+    margin: 10px 0 !important;
+  }
+  .date-sec label {
+    width: 98% !important;
+  }
+}
